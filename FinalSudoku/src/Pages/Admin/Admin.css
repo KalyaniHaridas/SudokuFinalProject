@@ -1,0 +1,115 @@
+.logo {
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.deal1{
+    width: 700px;
+    height: 400px;
+}
+#headerlogoProfile{
+    border-radius:8px;
+}
+
+.flatter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/card4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.SignButton {
+    margin-right: 30px;
+    border-radius: 10px;
+    float: right;
+    z-index: 99;
+    position: relative;
+    height: 40px;
+    width: 80px;
+    color: black;
+    background-color: rgb(139, 184, 193);
+}
+
+.linkBtn {
+    margin-top: 25px;
+    margin-right: 30px;
+    text-decoration: none !important;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large
+}
+
+.linkBtn:focus {
+    box-shadow: none;
+}
+
+.text1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.orderButton {
+    text-align: center;
+    /* margin-left: 40%; */
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    font-size: x-large;
+    background-color: rgb(18, 232, 211);
+}
+.cartbtn {
+    margin-right: 30px;
+    margin-left: 20px;
+    float: right;
+    z-index: 99;
+    position: relative;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: cornsilk;
+    /* background-color: rgb(251, 235, 170); */
+    color: black;
+    font-size: larger;
+}
+
+.dropBtnd {
+    /* margin-right: 30px;
+    margin-left: 80%;
+    margin-top: 3%;
+    border-radius: 10px;
+    height: 40px;
+    width: fit-content; */
+    border-radius: 10px;
+    background-color: cornsilk;
+    color: black;
+}
+
+#headerlogoProfile {
+    height: 50px;
+    /* margin-top: 1%; */
+    /* margin-left: 50px; */
+    /* margin-bottom: 10px; */
+}
+
+
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 102%;
+}
+
+#headerBtn{
+    margin-top: 0.5%;
+    /* margin-left: 2%; */
+    text-decoration: none !important;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    cursor: pointer;
+}
+
+.headerbtn:focus {
+    box-shadow: none;
+}

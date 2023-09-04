@@ -1,0 +1,244 @@
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+#sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-template-rows: repeat(9, 1fr);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  grid-gap: 2 px;
+}
+
+.cell-holder {
+  position: relative;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.note-label {
+  position: absolute;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  left: 40%;
+  top: 5%;
+  z-index: -1;
+}
+
+.n1 {
+  left: 10%;
+  top: 5%;
+}
+.n2 {
+  left: 40%;
+  top: 5%;
+}
+.n3 {
+  left: 75%;
+  top: 5%;
+}
+.n4 {
+  left: 10%;
+  top: 35%;
+}
+.n5 {
+  left: 40%;
+  top: 35%;
+}
+.n6 {
+  left: 75%;
+  top: 35%;
+}
+.n7 {
+  left: 10%;
+  top: 65%;
+}
+.n8 {
+  left: 40%;
+  top: 65%;
+}
+.n9 {
+  left: 75%;
+  top: 65%;
+}
+
+.cell {
+  display: flex;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-align: center;
+  caret-color: transparent;
+}
+
+.top {
+  border-top: 3px solid black;
+}
+
+.left {
+  border-left: 3px solid black;
+}
+
+.right {
+  border-right: 3px solid black;
+}
+
+.bottom {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.settings-container {
+  display: flex;
+  margin: 30px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-create-board,
+.button-solution,
+.button-clear,
+.button-undo,
+.button-notes,
+.button-hint {
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(37, 41, 68);
+  border: 3px solid black;
+}
+
+.button-create-board {
+  margin-left: 35px;
+  color: white;
+}
+
+.button-notes {
+  position: relative;
+  /* background-image: linear-gradient(red, yellow); */
+  background-color: rgb(37, 41, 68);
+  color: white;
+  margin-right: 10px;
+}
+
+.on-tooltip {
+  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 7px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  left: -15px;
+  top: -15px;
+}
+
+.button-solution {
+  /* background-image: linear-gradient(red, yellow); */
+  background-color: rgb(37, 41, 68);
+  color: white;
+}
+
+.button-undo {
+  /* background-image: linear-gradient(red, yellow); */
+  background-color: rgb(37, 41, 68);
+  color: white;
+  margin-right: 10px;
+}
+
+.button-clear {
+  /* background-image: linear-gradient(red, yellow); */
+  background-color: rgb(37, 41, 68);
+  color: white;
+  margin-right: 10px;
+}
+
+.button-hint {
+  /* background-image: linear-gradient(red, yellow); */
+  background-color: rgb(37, 41, 68);
+  color: white;
+  margin-right: 10px;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.switch-label {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.slider {
+  background: red;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* .header-sudoku{
+    margin-right: 50px;
+  } */
+.header__group-one {
+  color: lightskyblue;
+}
+
+.header__group-two {
+  color: var(--color-grey-light);
+}
+
+.timer {
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* nav */

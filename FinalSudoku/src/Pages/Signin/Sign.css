@@ -1,0 +1,9 @@
+.UpBtn {
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    background-color: rgb(94, 219, 244);
+    /* color: rgb(7, 84, 133); */
+}

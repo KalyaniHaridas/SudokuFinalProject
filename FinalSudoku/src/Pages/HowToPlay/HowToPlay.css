@@ -1,0 +1,58 @@
+/* App.css */
+.Appp {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Appp-header {
+    padding: 20px;
+  }
+  
+  .Appp-header h1 {
+    margin: 0;
+  }
+  
+  .Appp-main {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .Appp-main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Appp-main h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .Appp-main p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .Appp-main ol {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Appp-main li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  

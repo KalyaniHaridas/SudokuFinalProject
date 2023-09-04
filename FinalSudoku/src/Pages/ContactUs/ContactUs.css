@@ -1,0 +1,58 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.contact-content h2 {
+  color: #333;
+  font-size: 35px;
+}
+
+.contact-content p {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #0f0d0d;
+  margin: 10px 0;
+}
+
+.contact-methods {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact-method i {
+  font-size: 50px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.contact-method a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-method a:hover {
+  color: #6ce10d;
+}
